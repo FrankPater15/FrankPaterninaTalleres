@@ -1,0 +1,306 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.H3T {
+	font-family: Fredoka, sans-serif;
+}
+
+body {
+	background-image: url('img/background\ travis\ 6.jpg');
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	background-repeat: repeat;
+	background-size: 400px;
+}
+
+.header {
+    align-items: center;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+
+.menu {
+    background: #161616;
+    box-shadow: 1px 11px 22px 0px rgb(43, 42, 42);
+    border-radius: 10px 10px 10px 10px;
+    text-align: right;
+    width: 79.0rem; 
+    padding: 2rem 0;
+
+}
+
+.menu-title {
+    float: left;
+    margin-left: 90px; 
+    color: #ffffff; 
+    font-family: Acme, sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 40px;
+    margin-top: 3px;
+  }
+
+.menu-image {
+    float: left;
+    margin-right: -90px; 
+    margin-top: -12px;
+    width: 75px;
+    height: 70px;
+	margin-left: 10px;
+    box-shadow: none;
+}
+
+.menu-image:hover {
+    transform: rotate(370deg);
+    transition:5s ease;
+}
+
+.menu li {
+    list-style: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    font-family: Concert One, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.menu a:hover {
+    color: #ac3129;
+    transition: 0.3s ease;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19px;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	gap: 20px;
+
+	
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedor-conciertos {
+	display: grid;
+	grid-template-columns: repeat(3,2fr);
+	gap: 20px;
+	
+}
+
+.contenedor-outfit {
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	gap: 20px;
+	
+}
+
+.img2 {
+    padding: 20px;
+    width: 250px;
+    margin: auto; 
+    border-radius: 30px;
+}
+
+.img2:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+.img1 {
+    display: flex; 
+    justify-content: space-between; 
+
+}
+
+.card-outfit {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	width: 72%;
+	margin-left: 150px;
+	
+	background-size: 400px;
+
+	
+}
+
+.card-outfit .textos-outfit {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between ;
+	text-align: center;
+	color: #ffffff;
+	font-size: 25px;
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+
+	
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+.card .textos {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between ;
+	
+}
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: #f7f7f7;
+	background-color: #46322a;
+
+
+}
+
+.banner img {
+	width: 160px;
+	margin-left: 40px;
+}
+
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.banner a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.banner a:hover {
+	color: #161616;
+	transition: 0.4s ease;
+}
+
+.banner .boton:hover {
+	background-color: #5c432a;
+	color: wheat;
+	transition: 0.4s ease;
+}
+
+.banner .boton {
+	background: #e4ddb8;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .contenedor-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.site-footer {
+    background-color:#161616;
+    margin: 0px;
+    width: 78.9rem;
+	box-shadow: 0px -12px 15px 0px rgb(43, 42, 42);
+    border-radius: 10px;
+}
+.contenedor-footer {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.navegacion a:hover {
+    color: #ac3129; 
+    transition: color 0.3s ease; 
+}
+
+
+@media (min-width: 768px) {
+    .site-footer nav {
+        display: block;
+        font-family: Concert One, sans-serif;
+    }
+}
+
+.copyright {
+    margin: 0;
+    color: #ffffff;
+    margin-right: 30px;
+    font-family: Concert One, sans-serif;
+}
+
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}
