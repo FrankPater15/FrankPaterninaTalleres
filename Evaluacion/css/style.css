@@ -1,0 +1,295 @@
+body {
+	background: #4c536b;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #8EA9DB;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* Estilos de encabezados */
+h1 {
+    text-align: center;
+    margin-left: 250px;
+    font-size: 36px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+h3 {
+    margin-top: 20px;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h4 {
+    text-align: center;
+    margin-top: -5px;
+    font-size: 18px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.textobanner {
+    font-size: 22px;
+
+}
+
+/* Estilos de imágenes */
+img {
+    width: 250px;
+    float: left;
+    justify-content: space-between;
+    margin-left: -29px;
+    margin-top: -36px;
+    border-radius: 10px;
+}
+
+.imglogo {
+    width: 200px;
+}
+
+
+.img-cursos {
+    display: flex; 
+    justify-content: space-between; 
+    margin-left: 2rem;
+    height: 100px;
+
+}
+
+.img-cursos a {
+    margin-right: 20px; 
+}
+
+.img-cursos img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+
+.img-cursos img {
+    width: 200px; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+.img-profesores {
+    margin-left: 75px;
+    margin-top: 40px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+/* Estilos del menú */
+.menu1 {
+    background: #6b80a7;
+    text-align: right;
+    border-radius: 5px;
+    padding: 10px 0; 
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu1 ul {
+    list-style: none;
+    padding: 0; 
+}
+
+.menu1 li {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+.menu1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.menu1 a:hover {
+    color: #909bb3;
+    transition: 0.5s;
+}
+
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	gap: 20px;
+
+}
+
+.contenedor2 {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: grid;
+	grid-template-columns:100fr 1fr;
+	gap: 20px;
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedor1 {
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	gap: 20px;
+	
+}
+
+.contenedor-profesores {
+    display: grid;
+	grid-template-columns: repeat(3,1fr);
+	gap: 20px;
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    background-color: #d1daff;
+
+	
+}
+
+.card .textos {
+	height: 100%;
+    margin-top: 10px;
+}
+
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    background-color: #8EA9DB;
+
+
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner ul {
+	list-style: none;
+}
+
+
+.contenedor-videos {
+    display: flex;
+    justify-content: center;
+}
+
+.card-videos {
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+.textos {
+    text-align: center;
+}
+
+.videos1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.video {
+    width: 400px; 
+    border-radius: 10px;
+}
+
+
+/* Estilos para pantallas de tamaño específico */
+.footer{
+    background-color: rgb(11, 35, 67);
+    padding-bottom: 3rem;
+    border-radius: 1rem;
+   }
+   
+   .footer-grid {
+     display: grid;
+     grid-template-columns: 2fr 2fr 1fr;
+     gap: 2rem;
+     
+   }
+   
+   .footer-grid h2{
+     margin: 3rem 0;
+     text-transform: uppercase;
+     font-weight: 900;
+   }
+   
+   .nav-footer a {
+     display: block;
+     color: rgb(231, 226, 226);
+     text-decoration: none;
+   
+   }
+   
+   .nav-footer a:hover {
+     cursor: pointer;
+     color:rgb(126, 162, 198);
+     transition: 0.5s;
+   }
+   
+   .nav-iconos{
+     display: flex;
+     width:10rem;
+   }
+
+   .nav-footer {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   }
+
+
+
+/* Estilos para pantallas de tamaño específico */
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+
